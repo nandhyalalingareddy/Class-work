@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colorful Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #f12711, #f5af19);
+      padding: 1em 2em;
+      color: white;
+      text-align: center;
+    }
+    nav {
+      background-color: #2b5876;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      padding: 1em;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+    section {
+      padding: 2em;
+      margin: 2em;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #2b5876;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Colorful Website</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+  </nav>
+  <section>
+    <h2>About This Page</h2>
+    <p>This is a simple, colorful HTML page with vibrant gradients, a responsive layout, and clean design using only HTML and CSS.</p>
+  </section>
+  <section>
+    <h2>Enjoy the Vibes!</h2>
+    <p>We hope this design inspires you to create more beautiful web pages with a touch of color and creativity.</p>
+  </section>
+  <footer>
+    &copy; 2025 Colorful Web Inc.
+  </footer>
+</body>
+</html>
